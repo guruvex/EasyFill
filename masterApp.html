@@ -6,253 +6,162 @@
 			Master App
 		</title>
 		
-		
-
 		<style>
 		.clearleft {clear:left;}
+		
+		.size {width: 120px;}
 		</style>
 	
 	</head>
-	<!-- function 1-14 used -->
 	<body>
+	<p>About me</p>
 	<!-- first name -->
-		<input type="text" value="firstName" id="firstName">
-		<button onclick = "myFunction1()"><--</button>
-			<script type="text/javascript">
-				function myFunction1() {
-				/* Get the text field */
-				var copyText = document.getElementById("firstName");
-				/* Select the text field */
-				copyText.select();
-				/* Copy the text inside the text field */
-				document.execCommand("Copy");
-				} 
-			</script>
+		<button class = "size" onclick = "myFunction1('put first name here')">First Name</button>
 		<div class="clearleft"></div>
 	<!-- middle -->
-		<input  type="text" value="middleName" id="middleName">
-		<button onclick="myFunction2()"><--</button>
-			<script type="text/javascript">
-				function myFunction2() {
-				/* Get the text field */
-				var copyText = document.getElementById("middleName");
-				/* Select the text field */
-				copyText.select();
-				/* Copy the text inside the text field */
-				document.execCommand("Copy");
-				} 
-			</script>
+		<button class = "size" onclick="myFunction1('put middle name here')">Middle Name</button>
 		<div class="clearleft"></div>
 	<!-- last name -->
-		<input type="text" value="lastName" id="lastName">
-		<button onclick="myFunction3()"><--</button>
-				<script type="text/javascript">
-				function myFunction3() {
-				/* Get the text field */
-				var copyText = document.getElementById("lastName");
-				/* Select the text field */
-				copyText.select();
-				/* Copy the text inside the text field */
-				document.execCommand("Copy");
-				} 
-			</script>
+		<button class = "size" onclick="myFunction1('put last name here')">Last Name</button>
 		<div class="clearleft"></div>
 	<!-- all name -->
-		<input type="text" value="fill name" id="allName">
-		<button onclick="myFunction4()"><--</button>
-				<script type="text/javascript">
-				function myFunction4() {
-				/* Get the text field */
-				var copyText = document.getElementById("allName");
-				/* Select the text field */
-				copyText.select();
-				/* Copy the text inside the text field */
-				document.execCommand("Copy");
-				} 
-			</script>
+		<button class = "size" onclick="myFunction1('put full name here')">Full Name</button>
 		<div class="clearleft"></div>
-		<hr>
+		
+<hr>
+
 	<!-- street address -->
-		<input type="text" value="where i live" id="streetAddress">
-		<button onclick="myFunction5()"><--</button>
-				<script type="text/javascript">
-				function myFunction5() {
-				/* Get the text field */
-				var copyText = document.getElementById("streetAddress");
-				/* Select the text field */
-				copyText.select();
-				/* Copy the text inside the text field */
-				document.execCommand("copy");
-				} 
-			</script>
+		<button class = "size" onclick="myFunction1('put street address here')">Address</button>
 		<div class="clearleft"></div>
 	<!-- city -->
-		<input type="text" value="my city" id="city">
-		<button onclick="myFunction6()"><--</button>
-				<script type="text/javascript">
-				function myFunction6() {
-				/* Get the text field */
-				var copyText = document.getElementById("city");
-				/* Select the text field */
-				copyText.select();
-				/* Copy the text inside the text field */
-				document.execCommand("Copy");
-				} 
-			</script>
+		<button class = "size" onclick="myFunction1('put city here')">City</button>
 		<div class="clearleft"></div>
 	<!-- state -->
-		<input type="text" value="my state" id="state">
-		<button onclick="myFunction7()"><--</button>
-				<script type="text/javascript">
-				function myFunction7() {
-				/* Get the text field */
-				var copyText = document.getElementById("state");
-				/* Select the text field */
-				copyText.select();
-				/* Copy the text inside the text field */
-				document.execCommand("Copy");
-				} 
-			</script>
+		<button class = "size" onclick="myFunction1('put state here')">State</button>
 		<div class="clearleft"></div>
 	<!-- zip code -->
-		<input type="text" value="my zip" id="zipCode">
-		<button onclick="myFunction8()"><--</button>
-				<script type="text/javascript">
-				function myFunction8() {
-				/* Get the text field */
-				var copyText = document.getElementById("zipCode");
-				/* Select the text field */
-				copyText.select();
-				/* Copy the text inside the text field */
-				document.execCommand("Copy");
-				} 
-			</script>
+		<button class = "size" onclick="myFunction1('put zipcode here')">Zip Code</button>
 		<div class="clearleft"></div>
 	<!-- citizenship -->
-		<input type="text" value="United States of America" id="citizenship">
-		<button onclick="myFunction9()"><--</button>
-				<script type="text/javascript">
-				function myFunction9() {
-				/* Get the text field */
-				var copyText = document.getElementById("citizenship");
-				/* Select the text field */
-				copyText.select();
-				/* Copy the text inside the text field */
-				document.execCommand("Copy");
-				} 
-			</script>
+		<button class = "size" onclick="myFunction1('put country here')">Country</button>
 		<div class="clearleft"></div>
-		<hr>
+		
+<hr>
+
 	<!-- cell phone -->
-		<input type="text" value="my phone number" id="cellPhone">
-		<button onclick="myFunction10()"><--</button>
-				<script type="text/javascript">
-				function myFunction10() {
-				/* Get the text field */
-				var copyText = document.getElementById("cellPhone");
-				/* Select the text field */
-				copyText.select();
-				/* Copy the text inside the text field */
-				document.execCommand("Copy");
-				} 
-			</script>
-		<div class="clearleft"></div>
-	<!-- email address -->
-		<input type="text" value="my email" id="emailAddress">
-		<button onclick="myFunction11()"><--</button>
-				<script type="text/javascript">
-				function myFunction11() {
-				/* Get the text field */
-				var copyText = document.getElementById("emailAddress");
-				/* Select the text field */
-				copyText.select();
-				/* Copy the text inside the text field */
-				document.execCommand("Copy");
-				} 
-			</script>
+		<button class = "size" onclick="myFunction1('put phone number here')">Phone number</button>
 		<div class="clearleft"></div>
 	<!-- Age -->
-		<input type="text" value="to old" id="age">
-		<button onclick="myFunction12()"><--</button>
-				<script type="text/javascript">
-				function myFunction12() {
-				/* Get the text field */
-				var copyText = document.getElementById("age");
-				/* Select the text field */
-				copyText.select();
-				/* Copy the text inside the text field */
-				document.execCommand("<--");
-				} 
-			</script>
+		<button class = "size" onclick="myFunction1('put age here')">Age</button>
 		<div class="clearleft"></div>
 	<!-- date of birth -->
-		<input type="text" value="birth day" id="dateOfBirth">
-		<button onclick="myFunction13()"><--</button>
-				<script type="text/javascript">
-				function myFunction13() {
-				/* Get the text field */
-				var copyText = document.getElementById("dateOfBirth");
-				/* Select the text field */
-				copyText.select();
-				/* Copy the text inside the text field */
-				document.execCommand("Copy");
-				} 
-			</script>
+		<button class = "size" onclick="myFunction1('put birth date here')">Birth Date</button>
+		<div class="clearleft"></div>
+		
+<hr>
+	
+	<!-- email address's -->
+	<p>Email address's</p>
+		<button class = "size" title="put the email @whatever.com" onclick="myFunction1('put the email address here')">name of your email</button>
+		<div class="clearleft"></div>
+		<button class = "size" title="put the email @whatever.com" onclick="myFunction1('put the email address here')">name of your email</button>
+		<div class="clearleft"></div>
+		
+<hr>
+
+<!-- parents / spouse info  -->
+	<p>Spouse info</p>
+	<!-- spouse name -->
+		<button class = "size" onclick="myFunction1('put spouse name here')">Spouse</button>
+		<div class="clearleft"></div>
+	<!-- street address -->
+		<!-- same info / add here if diffrent -->
+	<!-- cell phone -->
+		<!-- number -->
+	<!-- Age -->
+		<!-- spouse age -->
+	<!-- married -->
+		<button class = "size" title="put married date" onclick="myFunction1('put married date')">Married</button>
+		<div class="clearleft"></div>
+	<!-- occupation -->
+		<button class = "size" title="put spouse occupation here" onclick="myFunction1('put spouse occupation here')">Occupation</button>
+		<div class="clearleft"></div>
+	<!-- schools attanded -->
+		<button class = "size" title="spouse school" onclick="myFunction1('put spouse school here')">School</button>
+		<div class="clearleft"></div>
+	<!-- ethnicity / ancestory -->
+		<button class = "size" title="put race here" onclick="myFunction1('put race here')">Race</button>
+		<div class="clearleft"></div>
+		
+<hr>
+	
+<!-- intrests -->
+		<p>Intrests</p>
+	<!-- intrest 1 -->
+		<button class = "size" onclick="myFunction1('put intrest here')">put intrest here</button>
+		<div class="clearleft"></div>
+	<!-- intrest 2 -->
+		<button class = "size" onclick="myFunction1('put intrest here')">put intrest here</button>
+		<div class="clearleft"></div>
+	<!-- intrest 3 -->
+		<button class = "size" onclick="myFunction1('put intrest here')">put intrest here</button>
+		<div class="clearleft"></div>
+
+<hr>
+		
+<!-- edcuation -->
+		<p> Edcuation Info</p>
+	<!-- highschool -->
+		<button class = "size" onclick="myFunction1('put high school here')">High School</button>
+		<div class="clearleft"></div>
+	<!-- GED score-->
+	<!-- date of ged -->
+		<button class = "size" title="put finsh date" onclick="myFunction1('put finsh date')">GED Date</button>
+		<div class="clearleft"></div>
+		
+<hr>
+		
+		<p>Current College Info</p>
+	<!-- college im going to -->
+		<button class = "size" title="put current college" onclick="myFunction1('put current college')">My College</button>
 		<div class="clearleft"></div>
 	<!-- field of study -->
-		<input type="text" value="field of study" id="fieldOfStudy">
-		<button onclick="myFunction14()"><--</button>
-				<script type="text/javascript">
-				function myFunction14() {
-				/* Get the text field */
-				var copyText = document.getElementById("fieldOfStudy");
-				/* Select the text field */
-				copyText.select();
-				/* Copy the text inside the text field */
-				document.execCommand("Copy");
-				} 
-			</script>
+		<button class = "size" title="put field of study here" onclick="myFunction1('put field of study here')">Field Of Study</button>
 		<div class="clearleft"></div>
-<!-- parents / spouse info  -->
-	<hr>
-	<!-- spouse name -->
-	
-	<!-- street address -->
-	
-	<!-- email address -->
-	
-	<!-- cell phone -->
-	
-	<!-- Age -->
-	
-	<!-- married -->
-	
-	<!-- occupation -->
-	
-	<!-- gender -->
-	
-	<!-- schools attanded -->
-	
-	<!-- ethnicity / ancestory -->
-	<!-- <hr> -->
-<!-- edcuation -->
-		<!-- highschool / ged -->
+	<!-- Grade point average -->
+		<button class = "size" title="put gpa here" onclick="myFunction1('put gpa here')">GPA</button>
+		<div class="clearleft"></div>
 		
-		<!-- date of ged -->
-		
-		<!-- <hr> -->
-		<!-- college -->
-		
-		<!-- state -->
-		
-		<!-- city -->
-		
-		<!-- dates attended -->
-		
-		<!-- grad date -->
-		
-		<!-- <hr> -->
-		
+<hr>
+
+		<p>Last College</p>
+	<!-- college name -->
+		<button class = "size" title="put name of college" onclick="myFunction1('put name of college')">Old College</button>
+		<div class="clearleft"></div>
+	<!-- dates attended -->
+		<button class = "size" title="put year span here" onclick="myFunction1('put year span here')">Dates</button>
+		<div class="clearleft"></div>
+	<!-- grad date -->
+		<button class = "size" title="put my grad date" onclick="myFunction1('put my grad date')">Grad Dates</button>
+		<div class="clearleft"></div>
+	<!-- math score -->
+	<!-- ACT -->
+	<!-- ebrw -->
 <!-- awards -->
+
+<!-- element for copy and paste -->
+	<input type="text"  id="copyBox">
 	</body>
+	<script type="text/javascript">
+		function myFunction1(namePass) {
+		/* send the passed value to the copy box */
+		document.getElementById("copyBox").value = namePass;
+		/* Get the text field */
+		var copyText = document.getElementById("copyBox");
+		/* Select the text field */
+		copyText.select();
+		/* Copy the text inside the text field */
+		document.execCommand("Copy");
+		} 
+	</script>
 </html>
